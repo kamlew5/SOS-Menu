@@ -14,7 +14,7 @@
 
     <fragment
         android:id="@+id/nav_patient"
-        android:name="com.example.menu.ui.patient.GalleryFragment"
+        android:name="com.example.menu.ui.patient.PatientFragment"
         android:label="@string/menu_gallery"
         tools:layout="@layout/fragment_gallery" />
 

@@ -7,10 +7,8 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.example.menu.serializers.PatientList
-import com.example.menu.serializers.SubPatientList
 
-class PatientAdapter(val patientList: PatientList) : RecyclerView.Adapter<PatientAdapter.PatientViewHolder>() {
-
+class PatientAdapter(val patientList: PatientList): RecyclerView.Adapter<PatientAdapter.PatientViewHolder>(){
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PatientViewHolder {
         return PatientViewHolder(
@@ -30,5 +28,7 @@ class PatientAdapter(val patientList: PatientList) : RecyclerView.Adapter<Patien
 
         }
     }
+
     class PatientViewHolder(val view: View) : RecyclerView.ViewHolder(view)
+
 }
