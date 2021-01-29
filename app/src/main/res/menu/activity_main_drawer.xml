@@ -6,15 +6,43 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@android:drawable/ic_menu_myplaces"
             android:title="@string/menu_home" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
+            android:id="@+id/nav_patient"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="Pacjenci" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:id="@+id/nav_up_person"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="Upoważnione osoby" />
+        <item
+            android:id="@+id/nav_visit"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="Wizyty" />
+        <item
+            android:id="@+id/nav_exam"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="Badania" />
+        <item
+            android:id="@+id/nav_recipe"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="Recepty" />
+        <item
+            android:id="@+id/nav_worker"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="Pracownicy" />
+        <item
+            android:id="@+id/nav_dic"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="Słownik" />
+        <item
+            android:id="@+id/nav_warehouse"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="Magazyn" />
+        <item
+            android:id="@+id/nav_admin"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="Administracja" />
     </group>
 </menu>
